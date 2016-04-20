@@ -1,0 +1,18 @@
+//
+//  LC-Prefix.pch
+//  LC
+//
+//  Created by luochao on 15/9/15.
+//  Copyright (c) 2015年 timeface. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+
+#endif
