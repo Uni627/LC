@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LC"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LC."
+  s.summary      = ""
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/LC"
+  s.homepage     = "https://github.com/l13635692453/LC"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,10 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "luochao" => "luochao@timeface.cn" }
-  # Or just: s.author    = "luochao"
-  # s.authors            = { "luochao" => "luochao@timeface.cn" }
-  # s.social_media_url   = "http://twitter.com/luochao"
+  s.author             = { "l13635692453" => "email@address.com" }
+  # Or just: s.author    = "l13635692453"
+  # s.authors            = { "l13635692453" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/l13635692453"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/l13635692453/LC.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/l13635692453/LC.git", :commit => "4092fa975c997cfb94cc9e68b2a54e3e0ec56472" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
