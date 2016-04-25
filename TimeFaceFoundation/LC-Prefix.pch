@@ -14,5 +14,7 @@
 
 #ifdef __OBJC__
 
-
+#import "TFCoreUtility.h"
+#import "Utility.h"
+#import "AppMacro.h"
 #endif
