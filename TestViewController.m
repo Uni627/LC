@@ -7,7 +7,8 @@
 //
 
 #import "TestViewController.h"
-
+#import "LcViewcontroller.h"
+#import "TNavigationViewController.h"
 @interface TestViewController ()
 
 @end
@@ -17,10 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self removeStateView];
+//    [self removeStateView];
 //    [self showStateView:]
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tap)];
+    [self.view addGestureRecognizer:tap];
 }
 
+- (void)tap{
+    LcViewcontroller *vc = [[LcViewcontroller alloc]init];
+//    TNavigationViewController *nav = [[TNavigationViewController alloc]initWithRootViewController:vc];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
